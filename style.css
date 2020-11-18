@@ -1,0 +1,60 @@
+html,
+body {
+  background: no-repeat;
+  color: #000080;
+  font-family: "Turret Road", cursive;
+  font-size: 20px;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+.weather-container {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-size: 400px 700px;
+  border-bottom-left-radius: 42%;
+  border-bottom-right-radius: 42%;
+}
+
+.day {
+  background-image: url("./imgs/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.night {
+  background-image: url("./imgs/background-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #f5a235;
+}
+
+.change {
+  text-align: center;
+}
+
+.change-input {
+  border-radius: 10px;
+  padding: 10px 29px 10px 29px;
+  font-family: "Turret Road", cursive;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#city-input {
+  margin-right: 1px;
+  text-align: left;
+}
+
+.day1 {
+  background-color: rgb(175, 231, 253);
+  background: rgb(175, 231, 253);
+  color: #000080;
+}
+
+.night1 {
+  background-color: rgb(209, 140, 255);
+  background: rgb(209, 140, 255);
+  color: #f5a235;
+}
